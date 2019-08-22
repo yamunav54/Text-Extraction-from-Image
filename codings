@@ -1,0 +1,5 @@
+import pytesseract
+from PIL import Image
+pytesseract.pytesseract.tesseract_cmd= r'C:\\Users\\yammu\\AppData\\Local\\Tesseract-OCR\\tesseract'
+out=pytesseract.image_to_string(Image.open('C:\\Users\\yammu\\Downloads\\extraction.png'))
+print(out)
