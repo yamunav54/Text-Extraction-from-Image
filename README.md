@@ -1,1 +1,1 @@
-# Text-Extraction-from-Image
+# Using Pytesseract i can extracted text from the image
